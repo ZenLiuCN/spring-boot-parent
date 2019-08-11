@@ -7,7 +7,7 @@
     <groupId>cn.zenliu</groupId>
     <artifactId>spring-boot-parent</artifactId>
     <version>1.0-SNAPSHOT</version>
-
+    <packaging>pom</packaging>
 
     <repositories>
         <repository>
