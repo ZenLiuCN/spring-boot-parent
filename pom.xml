@@ -60,6 +60,11 @@
         </profile>
         <profile>
             <id>kotlin</id>
+            <activation>
+                <file>
+                    <exists>${basedir}/src/main/kotlin</exists>
+                </file>
+            </activation>
             <dependencies>
                 <dependency>
                     <groupId>org.jetbrains.kotlin</groupId>
